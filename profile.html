@@ -1,51 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="frequent-questions-wrapper">
-        <h2>Frequently Asked Questions</h2>
-        <ul class="list-of-questions">
-          <li>
-            <div class="question">
-              <span>What is Netflix?</span>
-              <span class="plus"> <span></span> </span>
-            </div>
-          </li>
-          <li>
-            <div class="question">
-                <span>How much does Netflix cost?</span>
-                <span class="plus"> <span></span> </span>
-            </div>
-          </li>
-          <li>
-            <div class="question">
-                <span>Where can I watch?</span>
-                <span class="plus"> <span></span> </span>
-            </div>
-          </li>
-        </ul>
-      </div>
-  
-      <!-- Read to watch? -->
-      <div class="membership-label-input-wrapper gray-bottom-border">
-        <label for="email"
-          >Ready to watch? Enter your email to create or restart your
-          membership</label
-        >
-        <div class="input-get-started-wrapper">
-          <input type="text" name="email" placeholder="Email Address" />
-          <a href="login.html" class="get-started">
-            Get started
-            <figure class="side-arrow">
-              <img src="/Images/side-arrow.png" alt="side arrow" />
-            </figure>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/CSS/profile.css" />
+  </head>
+  <body>
+    <header>
+      <figure class="netflix-logo">
+        <img src="./Images/Fill-14.png" alt="Neflix-logo" />
+      </figure>
+    </header>
+    <h2>Who is Watching?</h2>
+    <div class="profiles">
+      <div>
+        <figure>
+          <a href="user.html">
+            <img src="./Images/ProfilePicture.png" alt="" />
           </a>
-        </div>
+        </figure>
+        <div>Murat</div>
       </div>
-</body>
+      <div>
+        <figure>
+          <a href="user.html">
+            <img src="./Images/ProfilePicture (1).png" alt="" />
+          </a>
+        </figure>
+        <div>Umut</div>
+      </div>
+      <div>
+        <figure>
+          <a href="user.html">
+            <img src="./Images/ProfilePicture (2).png" alt="" />
+          </a>
+        </figure>
+        <div>Kemal</div>
+      </div>
+      <div>
+        <figure>
+          <a href="user.html">
+            <img src="./Images/ProfilePicture (3).png" alt="" />
+          </a>
+        </figure>
+        <div>Çocuk</div>
+      </div>
+      <div class="add-profile">
+        <figure>
+          <img src="./Images/Vector (1).png" alt="" />
+        </figure>
+        <div>Add Profile</div>
+      </div>
+    </div>
+    <div class="manage-profiles">
+      <button>Manage Profiles</button>
+    </div>
+  </body>
 </html>
