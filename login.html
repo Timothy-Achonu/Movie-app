@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie App</title>
+    <link rel="icon" type="image/png" href="/Images/icons8-netflix-30.png" />
+    <link rel="stylesheet" href="/CSS/login.css" />
+  </head>
+  <body>
+    <header>
+      <figure class="netflix-logo">
+        <img src="./Images/Fill-14.png" alt="Neflix-logo" />
+      </figure>
+    </header>
+    <!-- sign in form -->
+    <form action="">
+      <h2>Sign In</h2>
+      <input
+        type="text"
+        name="email-number"
+        id="email-number"
+        placeholder="Email or phone number"
+      />
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Password"
+      />
+      <button id="sign-in-btn">
+        <a href="profile.html" class="sign-in-btn-link"> Sign In </a>
+      </button>
+
+      <div class="rememberMe-needHelp">
+        <div>
+          <input type="checkbox" name="checkbox" id="remember-me" />
+          <label for="checkbox">Remember me </label>
+        </div>
+        <a href="https://www.netflix.com/ng/LoginHelp" target="_blank"
+          >Need help?</a
+        >
+      </div>
+      <div>
+        <div class="login-with-facebook-wrapper">
+          <figure class="facebook-logo-wrapper">
+            <img src="/Images/facebook-logo.png" alt="Facebook-logo" />
+          </figure>
+          <a href="#">Login with Facebook</a>
+        </div>
+        <div class="new-to-netflix-sign-up-wrapper">
+          <span>New to Netflix?</span>
+          <a href="index.html">Sign up now</a>
+        </div>
+        <p class="page-protected">
+          This page is protected by Google reCHAPTCHA to ensure you are not a
+          bot.
+          <span class="learn-more">Learn more</span>
+        </p>
+        <p class="learn-more-information">
+          The information collected by Google reCAPTCHA is subject to the Google
+          <a href="https://policies.google.com/privacy" target="_blank"
+            >Privacy Policy
+          </a>
+          and
+          <a href="https://policies.google.com/terms" target="_blank"
+            >Terms of Service </a
+          >, and is used for providing, maintaining, and improving the reCAPTCHA
+          service and for general security purposes (it is not used for
+          personalized advertising by Google).
+        </p>
+      </div>
+    </form>
+
+    <!-- Footer -->
+    <footer>
+      <h2>Questions? Call 1-844-505-2993</h2>
+      <div class="footer-links-container">
+        <!-- 1 -->
+        <ul>
+          <li>FAQ</li>
+          <li>Cookie Perference</li>
+        </ul>
+        <!-- 2 -->
+        <ul>
+          <li>Help Center</li>
+          <li>Coporate Information</li>
+        </ul>
+        <!-- 3 -->
+        <ul>
+          <li>Terms of Use</li>
+        </ul>
+      </div>
+      <!-- world-icon -->
+      <div class="world-icon-lang-wrapper footer">
+        <figure class="world-icon">
+          <img src="/Images/icons8-geography-30.png" />
+        </figure>
+        <span class="lang">English</span>
+        <figure class="down-arrow">
+          <img src="/Images/down-arrow.png" alt="world icon logo" />
+        </figure>
+      </div>
+    </footer>
+    <script src="/JS/script.js"></script>
+  </body>
+</html>
