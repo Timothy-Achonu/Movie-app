@@ -20,6 +20,9 @@ figure {
 }
 
 /* Header  */
+header {
+  width: 100%;
+}
 nav {
   display: flex;
   justify-content: center;
@@ -79,6 +82,7 @@ header .movie-poster {
     cover;
   padding-left: 45px;
   padding-top: 110px;
+  width: 100%;
 }
 header .movie-poster > div {
   display: flex;
@@ -227,7 +231,6 @@ footer > .socials figure {
   flex-direction: column;
   max-width: 25%;
   min-width: 300px;
-  /* background-color: yellow; */
 }
 .footer-links-container ul li {
   list-style: none;
@@ -249,8 +252,10 @@ footer > .socials figure {
   padding: 5px 10px;
   margin-bottom: 20px;
 }
-footer pre {
+footer .pre {
+  display: flex;
   color: #999;
+  width: 85%;
 }
 
 
@@ -349,6 +354,11 @@ figure.rankCard-last-side-arrow {
 footer {
   margin-top: 50px;
   padding: 20px 50px;
+}.footer-links-container {
+  flex-direction: column;
+}
+.footer-links-container ul {
+  min-width: fit-content;
 }
 
 }
